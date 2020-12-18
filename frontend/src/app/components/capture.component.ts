@@ -12,6 +12,8 @@ import {CameraImage} from '../models';
 })
 export class CaptureComponent implements OnInit {
 
+	username = ''
+	password = ''
 	allowCameraSwitch = true
 	videoOptions: MediaTrackConstraints = {
 		//width: 1024,
